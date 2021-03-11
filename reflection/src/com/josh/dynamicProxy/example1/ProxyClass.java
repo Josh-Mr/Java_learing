@@ -13,7 +13,6 @@ import java.lang.reflect.Method;
 public class ProxyClass implements InvocationHandler {
 
     public Object object;
-
     public ProxyClass(Object object){
         this.object = object;
     }
