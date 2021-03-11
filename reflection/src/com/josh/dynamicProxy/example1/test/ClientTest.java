@@ -6,6 +6,7 @@ import com.josh.dynamicProxy.example1.SubjectImpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
+import java.util.ArrayList;
 
 /**
  * @author Josh
@@ -15,7 +16,9 @@ import java.lang.reflect.Proxy;
  * @createTime 2020-03-29 21:52:00
  */
 public class ClientTest {
+
     public static void main(String[] args) {
+
 
         // 真实对象（被代理对象）
         Subject subject = new SubjectImpl();
