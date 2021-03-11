@@ -1,4 +1,4 @@
-package decorator;
+package decorator.demo01;
 
 import com.decorator.demo1.*;
 
